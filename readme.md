@@ -15,7 +15,7 @@ Task requires you to create separate front-end and back-end instances.
 
 ##Back-end:
 
-● Built on laravel 5.2 and dingo api package
+● Built on laravel 5.2 and dingo api package [OK]
 
 ● Create public pages and pages that are secured with JWT (Json web token)
 
