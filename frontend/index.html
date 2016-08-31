@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+	<title></title>
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/angular-loading-bar/0.9.0/
+	loading-bar.css">
+</head>
+<body>
+
+
+<div class="navbar-header">
+   <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+       <span class="sr-only">Toggle navigation</span>
+       <span class="icon-bar"></span>
+       <span class="icon-bar"></span>
+       <span class="icon-bar"></span>
+   </button>
+   <a class="navbar-brand" href="#">Vacancy Subscriber</a>
+</div>
+<div class="navbar-collapse collapse">
+   <ul class="nav navbar-nav navbar-right">
+       <li data-ng-show="token"><a ng-href="#/restricted">Dashboard</a></li>
+       <li data-ng-hide="token"><a ng-href="#/signin">Sign in</a></li>
+       <li data-ng-hide="token"><a ng-href="#/signup">Sign up</a></li>
+       <li data-ng-show="token"><a ng-click="logout()">Logout</a></li>
+   </ul>
+</div>
+
+<div data-ng-controller="HomeController">
+
+</div>
+
+
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.14/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular-route.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-loading-bar/0.9.0/loading-bar.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.3/angular-resource.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.2.1/mustache.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ngStorage/0.3.6/ngStorage.min.js"></script>
+
+<script src="/scripts/app.js"></script>
+<script src="/scripts/controllers.js"></script>
+<script src="/scripts/services.js"></script>
+
+</body>
+</html>
