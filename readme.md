@@ -1,9 +1,9 @@
 
-#Edurio test project
+# Edurio test project
 
 Task requires you to create separate front-end and back-end instances.
 
-##Front-end:
+## Front-end:
 
 ● Use VUE.js for routing and managing all views.
 
@@ -13,7 +13,7 @@ Task requires you to create separate front-end and back-end instances.
 
 ● Tests written using http://nightwatchjs.org/ (Optional)
 
-##Back-end:
+## Back-end:
 
 ● Built on laravel 5.2 and dingo api package [OK]
 
@@ -23,7 +23,7 @@ Task requires you to create separate front-end and back-end instances.
 
 ● API tests written in php unit
 
-##Task, what you need to build.
+## Task, what you need to build.
 
 1. Homepage with simple login form
 
@@ -37,13 +37,13 @@ b. And excel data import (Structure is up to you), important, that there should 
 
 more that 3 columns and 10 rows of data.
 
-##Story
+## Story
 
 I will build platform , where Recruiter imports or add I'ts Vacancies . And platform , where it will get Candidates that are valid for this vacancy.
 
 Import will consist of 4 columns : Title , Country , Keywords (seperated by ',')
 
-#####Sample
+##### Sample
 `` PHP Developer | Latvia | php , mysql , laravel , git``
 `` Front-End developer | Belarus | sass , css , javascript , angularJs``
 
